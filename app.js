@@ -11,7 +11,7 @@ var score = 0;
 
 function theirScore (){
   	if (score <= 3){
-  		yourScore = alert('You have less then 3 points');
+  		yourScore = alert('You have less than 3 points');
   	}
   	else if(score <= 5){
   		yourScore = alert('You have less than 5 points');
@@ -22,36 +22,46 @@ function theirScore (){
   }
 
 function choose1 (){
- if( q1[0].checked === true){
-   score+= 1;
+   if( q1[0].checked === true){
+   score+= 1
  }
- if(q2[0].checked === true){
+}
+
+function choose2 (){
+	if(q2[0].checked === true){
+ 	score+= 1
+ }
+ 	console.log(score);
+}
+
+function choose3 (){
+	 if(q3[0].checked === true){
  	score+= 1;
  }
- if(q3[0].checked === true){
- 	score+= 1;
- }
+}
+
+function choose4 (){
  if(q4[0].checked === true){
  	score+= 1;
  }
- if(q5[0].checked === true){
- 	score+= 1;
- }
- if(q6[0].checked === true){
- 	score+= 1;
- }
- if(q7[0].checked === true){
- 	score+= 1;
-
- }
-   
-  else{
-    yourScore = alert(score);
-  }
-  theirScore();
-  
 }
 
+function choose5 (){
+	if(q5[0].checked === true){
+ 	score+= 1;
+ }
+}
 
-
-
+function choose6 (){
+	if(q6[0].checked === true){
+ 	score+= 1;
+ }
+}
+ 
+function choose7 (){
+	if(q7[0].checked === true){
+ 	score+= 1;
+ 	// theirScore();
+ }
+}
+   
