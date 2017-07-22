@@ -1,5 +1,6 @@
+
 <h1><strong>Question 2</strong>: Are you looking for a career?</h1>
-<h1><input type="checkbox" name="q2" value="y"> Yes</h1>
-<h1><input type="checkbox" name="q2" value="n"> No</h1>
-<button routerLink="/q3">Next Question</button>
+<h1><input (click)="chooseYes()" type="checkbox" name="q2" id="q2-y" value="yes"> Yes</h1>
+<h1><input (click)="chooseNo()" type="checkbox" name="q2" id="q2-n" value="no"> No</h1>
+<button routerLink="/q3" >Next Question</button>
 

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { SumPointsService } from '../sumPoints.service';
+
 
 @Component({
   selector: 'app-q4',
@@ -7,9 +9,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Q4Component implements OnInit {
 
-  constructor() { }
+  constructor(private sumPointsService: SumPointsService) {}
 
-  ngOnInit() {
+  ngOnInit() {}
+
+  chooseYes(){
+   this.sumPointsService.onYes();
+  }
+  chooseNo(){
+	 this.sumPointsService.onNo();
   }
 
 }

@@ -2,6 +2,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
+import { SumPointsService} from './sumPoints.service';
+
 import { AppComponent } from './app.component';
 import { Q1Component } from './q1/q1.component';
 import { LandingComponent } from './landing/landing.component';
@@ -45,7 +47,7 @@ const appRoutes: Routes = [
     BrowserModule, 
     RouterModule.forRoot(appRoutes)
   ],
-  providers: [],
+  providers: [SumPointsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
