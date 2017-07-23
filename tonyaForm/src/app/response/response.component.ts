@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { SumPointsService } from '../sumPoints.service';
+
 
 @Component({
   selector: 'app-response',
@@ -6,8 +8,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./response.component.css']
 })
 export class ResponseComponent implements OnInit {
+	  constructor(private sumPointsService: SumPointsService) {}
 
-  constructor() { }
+
 
   ngOnInit() {
   }

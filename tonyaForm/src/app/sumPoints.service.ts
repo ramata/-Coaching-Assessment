@@ -5,13 +5,20 @@ export class SumPointsService{
     info: void;
 	checkYes: boolean = false;
 	checkNo: boolean = false;
+	response1: boolean = false;
+	response2: boolean = false;
+	response3: boolean = false;
 	score: number = 0;
+	// response1: any = document.getElementById('sevenPointsOrLess');
+	// response2: any = document.getElementById('fourPointsOrLess');
+	// response3: any = document.getElementById('threePointsOrLess');
 
 	onYes(){
   		   // var add1 = 1;
            this.checkYes = true;
            this.score++;
-           console.log(this.score);
+           console.log(this.score); 
+           console.log(this.response2);
   	  	 		
   }
 
@@ -20,6 +27,25 @@ export class SumPointsService{
   	this.score + 0;
   	console.log(this.score);
   }
+
+  userResponse(){
+
+    if( this.score <= 3)
+      {this.response3 = true;
+      	console.log('hey');
+    }
+    else if(this.score <= 5 ){
+    	this.response2 = true;
+        console.log('jello');   
+    }
+    else{ 
+    	this.response1 = true;
+        console.log('hello'); 
+    }
+    
+
+  }
+
 
 // bothChecked(){
 // 	if( checkYes = true && checkNo = true){

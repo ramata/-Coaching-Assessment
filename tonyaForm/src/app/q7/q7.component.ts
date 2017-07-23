@@ -9,6 +9,7 @@ import { SumPointsService } from '../sumPoints.service';
 })
 export class Q7Component implements OnInit {
 
+
   constructor(private sumPointsService: SumPointsService) {}
 
   ngOnInit() {}
@@ -19,5 +20,12 @@ export class Q7Component implements OnInit {
   chooseNo(){
    this.sumPointsService.onNo();
   }
+
+  usersResponse(){
+    this.sumPointsService.userResponse();
+  }
+
+  
+
 
 }
