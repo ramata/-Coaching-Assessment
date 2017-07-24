@@ -9,21 +9,11 @@ import { SumPointsService } from '../sumPoints.service';
 })
 export class Q2Component implements OnInit {
 
-  	info: void;
-    checkYes: boolean = false;
-    checkNo: boolean = false;
-    score: number = 0;
-
 
   constructor(private sumPointsService: SumPointsService) {}
 
   ngOnInit() {}
 
-  chooseYes(){
-    this.sumPointsService.onYes();
-  }
-  chooseNo(){
-    this.sumPointsService.onNo();
-  }
+  
   
 }

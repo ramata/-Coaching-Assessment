@@ -12,10 +12,4 @@ export class Q6Component implements OnInit {
 
 	ngOnInit() {}
 
-	chooseYes(){
-	 this.sumPointsService.onYes();
-	}
-	chooseNo(){
-	 this.sumPointsService.onNo();
-	}
 }

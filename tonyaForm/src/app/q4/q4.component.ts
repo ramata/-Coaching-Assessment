@@ -13,11 +13,5 @@ export class Q4Component implements OnInit {
 
   ngOnInit() {}
 
-  chooseYes(){
-   this.sumPointsService.onYes();
-  }
-  chooseNo(){
-	 this.sumPointsService.onNo();
-  }
-
+  
 }

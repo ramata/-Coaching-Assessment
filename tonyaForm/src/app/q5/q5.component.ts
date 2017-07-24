@@ -12,11 +12,5 @@ export class Q5Component implements OnInit {
   constructor(private sumPointsService: SumPointsService) {}
 
   ngOnInit() {}
-  chooseYes(){
-   this.sumPointsService.onYes();
-  }
-  chooseNo(){
-	 this.sumPointsService.onNo();
-  }
-
+  
 }

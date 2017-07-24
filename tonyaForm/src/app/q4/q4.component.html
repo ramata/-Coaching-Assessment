@@ -1,7 +1,10 @@
 <h1><strong>Question 4</strong>: Are you in career rut?</h1>
 
-<h1><input (click)="chooseYes()" type="checkbox" name="q4" value="y"> Yes</h1>
-<h1><input (click)="chooseNo()" type="checkbox" name="q4" value="n"> No</h1>
+<h1><input [checked]="sumPointsService.checkYes" (change)="sumPointsService.checkYes = !sumPointsService.checkYes" type="checkbox" name="q4" value="y"> Yes</h1>
 
-<button routerLink="/q5">Next Question</button>
+<h1><input [checked]="sumPointsService.checkNo" (change)="sumPointsService.checkNo = !sumPointsService.checkNo" type="checkbox" name="q4" value="n"> No</h1>
 
+<p *ngIf="sumPointsService.checkYes && sumPointsService.checkNo">Please choose either Yes or No in order to move on to the next question. </p>
+
+<button [disabled]="sumPointsService.checkYes && sumPointsService.checkNo" 
+(click)="sumPointsService.scoreRecord()" routerLink="/q5">Next</button>

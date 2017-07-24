@@ -14,18 +14,8 @@ export class Q7Component implements OnInit {
 
   ngOnInit() {}
 
-  chooseYes(){
-   this.sumPointsService.onYes();
-  }
-  chooseNo(){
-   this.sumPointsService.onNo();
-  }
-
   usersResponse(){
     this.sumPointsService.userResponse();
   }
-
   
-
-
 }
