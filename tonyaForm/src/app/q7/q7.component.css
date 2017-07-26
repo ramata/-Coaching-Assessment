@@ -1,0 +1,29 @@
+#q7Color{
+	background-color: #EEE8AA;
+	padding-bottom: 50px;
+}
+#q7Title{
+	padding-top: 100px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+#q7Answers{
+	padding-bottom: 35px;
+}
+
+#q7Button{
+	color: white;
+	background-color: #9ACD32;
+	border-color: white;
+	
+
+}
+#q7-n{
+	width: 30px;
+	height: 30px;
+}
+
+#q7-y{
+	width: 30px;
+	height: 30px;
+}

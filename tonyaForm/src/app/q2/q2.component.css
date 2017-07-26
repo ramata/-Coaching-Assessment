@@ -1,0 +1,30 @@
+#q2Color{
+	background-color: #EEE8AA;
+	padding-bottom: 50px;
+}
+#q2Title{
+	padding-top: 100px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+#q2Answers{
+	padding-bottom: 35px;
+}
+
+#q2Button{
+	color: white;
+	background-color: #9ACD32;
+	border-color: white;
+	padding-left: 40px;
+	padding-right: 40px;
+
+}
+#q2-n{
+	width: 30px;
+	height: 30px;
+}
+
+#q2-y{
+	width: 30px;
+	height: 30px;
+}

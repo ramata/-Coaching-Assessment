@@ -1,0 +1,30 @@
+#q5Color{
+	background-color: #EEE8AA;
+	padding-bottom: 50px;
+}
+#q5Title{
+	padding-top: 100px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+#q5Answers{
+	padding-bottom: 35px;
+}
+
+#q5Button{
+	color: white;
+	background-color: #9ACD32;
+	border-color: white;
+	padding-left: 40px;
+	padding-right: 40px;
+
+}
+#q5-n{
+	width: 30px;
+	height: 30px;
+}
+
+#q5-y{
+	width: 30px;
+	height: 30px;
+}

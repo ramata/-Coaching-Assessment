@@ -1,0 +1,22 @@
+#landingColor{
+	background-color: #EEE8AA;
+	padding-bottom: 35px;
+}
+#landingTitle{
+	padding-top: 100px;
+	text-align: center;
+}
+
+#landingInfo{
+	text-align: center;
+	padding-bottom: 25px;
+
+}
+
+#landingButton{
+	color: white;
+	background-color: #9ACD32;
+	border-color: white;
+
+}
+

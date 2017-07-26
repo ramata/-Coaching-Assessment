@@ -1,0 +1,25 @@
+#responseColor{
+	background-color: #EEE8AA;
+	padding-top: 100px;
+	padding-bottom: 75px;
+}
+
+section{
+	text-align: center;
+
+}
+#r1Button{
+	color: white;
+	background-color: #9ACD32;
+	border-color: white;
+}
+#r2Button{
+	color: white;
+	background-color: #9ACD32;
+	border-color: white;
+}
+#r3Button{
+	color: white;
+	background-color: #9ACD32;
+	border-color: white;
+}

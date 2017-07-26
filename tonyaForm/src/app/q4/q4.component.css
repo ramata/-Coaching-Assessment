@@ -1,0 +1,30 @@
+#q4Color{
+	background-color: #EEE8AA;
+	padding-bottom: 50px;
+}
+#q4Title{
+	padding-top: 100px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+#q4Answers{
+	padding-bottom: 35px;
+}
+
+#q4Button{
+	color: white;
+	background-color: #9ACD32;
+	border-color: white;
+	padding-left: 40px;
+	padding-right: 40px;
+
+}
+#q4-n{
+	width: 30px;
+	height: 30px;
+}
+
+#q4-y{
+	width: 30px;
+	height: 30px;
+}

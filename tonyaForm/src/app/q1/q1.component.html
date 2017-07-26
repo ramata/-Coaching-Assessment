@@ -1,12 +1,40 @@
-<!-- <form id="question1">
- --><h1> <strong>Question 1</strong>: Do you feel like you have a clear career path?</h1>
+<div class="container-fluid" id="q1Color">
+<div class="row">
+<div class="col-sm-3 col-md-3 col-lg-1"></div>
+<div class="col-sm-6 col-md-6 col-lg-10">
 
-<h1><input [checked]="sumPointsService.checkYes" (change)="sumPointsService.checkYes = !sumPointsService.checkYes" type="checkbox" name="q1" id="q1-y" value="yes" > Yes</h1>
+<h1 id="q1Title"> <strong>Question 1</strong>: Do you feel like you have a clear career path?</h1>
+</div>
+<div class="col-sm-3 col-md-3 col-lg-1"></div>
+</div>
 
-<h1> <input [checked]="sumPointsService.checkNo" (change)="sumPointsService.checkNo = !sumPointsService.checkNo" type="checkbox" name="q1" id="q1-n" value="no"> No </h1>
-<!-- </form>
- -->
+<div class="row" id="q1Answers">
+<div class="col-lg-4"></div>
+<div class="col-sm-2 col-md-2 col-lg-2">
+
+<h1 ><input class="size" [checked]="sumPointsService.checkYes" (change)="sumPointsService.checkYes = !sumPointsService.checkYes" type="checkbox" name="q1" id="q1-y" value="yes" > Yes</h1>
+</div>
+
+<div class="col-sm-2 col-md-2 col-lg-2">
+
+<h1 > <input class="size" [checked]="sumPointsService.checkNo" (change)="sumPointsService.checkNo = !sumPointsService.checkNo" type="checkbox" name="q1" id="q1-n" value="no"> No </h1>
+</div>
+<div class="col-lg-4"></div>
+</div>
+
+
+
  <p *ngIf="sumPointsService.checkYes && sumPointsService.checkNo">Please choose either Yes or No in order to move on to the next question. </p>
 
-<button [disabled]="sumPointsService.checkYes && sumPointsService.checkNo" 
+
+
+<div class="row">
+<div class="col-md-5 "></div>
+<div class="col-md-2">
+
+<button type="button" class="btn btn-primary btn-lg" id="q1Button" [disabled]="sumPointsService.checkYes && sumPointsService.checkNo" 
 (click)="sumPointsService.scoreRecord()" routerLink="/q2">Next</button>
+</div>
+<div class="col-md-5"></div>
+
+</div>
