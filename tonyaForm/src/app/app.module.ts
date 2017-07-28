@@ -1,6 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { JsonpModule } from '@angular/http';
+
 import { FormsModule } from '@angular/forms';
 // import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
@@ -48,7 +50,7 @@ const appRoutes: Routes = [
   imports: [
     BrowserModule, 
     FormsModule,
-    // BrowserAnimationsModule,
+    JsonpModule,
     RouterModule.forRoot(appRoutes)
   ],
   providers: [SumPointsService],

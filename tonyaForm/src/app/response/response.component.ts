@@ -10,8 +10,6 @@ import { SumPointsService } from '../sumPoints.service';
 export class ResponseComponent implements OnInit {
 	  constructor(public sumPointsService: SumPointsService) {}
 
-
-
   ngOnInit() {
   }
 
