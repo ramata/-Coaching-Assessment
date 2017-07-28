@@ -8,7 +8,7 @@ import { SumPointsService } from '../sumPoints.service';
   styleUrls: ['./response.component.css']
 })
 export class ResponseComponent implements OnInit {
-	  constructor(private sumPointsService: SumPointsService) {}
+	  constructor(public sumPointsService: SumPointsService) {}
 
 
 

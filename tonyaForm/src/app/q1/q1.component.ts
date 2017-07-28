@@ -11,7 +11,7 @@ import { SumPointsService } from '../sumPoints.service';
 export class Q1Component implements OnInit {
 
 
-  constructor(private sumPointsService: SumPointsService) {}
+  constructor(public sumPointsService: SumPointsService) {}
 
   ngOnInit() {}
 

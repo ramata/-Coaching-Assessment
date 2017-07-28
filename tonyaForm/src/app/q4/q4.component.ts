@@ -9,7 +9,7 @@ import { SumPointsService } from '../sumPoints.service';
 })
 export class Q4Component implements OnInit {
 
-  constructor(private sumPointsService: SumPointsService) {}
+  constructor(public sumPointsService: SumPointsService) {}
 
   ngOnInit() {}
 
